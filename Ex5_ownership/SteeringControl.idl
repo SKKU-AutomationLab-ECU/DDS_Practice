@@ -1,0 +1,9 @@
+struct SteeringCommand {
+    unsigned long long timestamp;
+    string controller_name;      // 제어 시스템 이름
+    float steering_angle;        // 조향각 (-540 ~ +540도)
+    float steering_torque;       // 조향 토크
+    float vehicle_speed;         // 차량 속도
+    string control_reason;       // 제어 개입 이유
+    boolean emergency_control;   // 긴급 제어 여부
+};

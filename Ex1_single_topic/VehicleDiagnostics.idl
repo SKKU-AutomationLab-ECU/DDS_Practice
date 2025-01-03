@@ -1,0 +1,16 @@
+struct ErrorCode {
+    string code;
+    string description;
+    boolean is_critical;
+};
+
+struct VehicleDiagnostics {
+    unsigned long long timestamp;
+    string vehicle_id;
+    float engine_rpm;
+    float vehicle_speed;
+    float engine_temperature;
+    float fuel_level;
+    float battery_voltage;
+    sequence<ErrorCode> error_codes;
+};

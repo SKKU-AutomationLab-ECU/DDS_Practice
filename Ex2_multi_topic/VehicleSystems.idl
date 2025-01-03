@@ -1,0 +1,45 @@
+struct PowertrainData {
+    unsigned long long timestamp;
+    float engine_rpm;
+    float engine_temperature;
+    float engine_load;
+    float transmission_temp;
+    long current_gear;
+    float throttle_position;
+    sequence<string> dtc_codes;    // Diagnostic Trouble Codes
+};
+
+struct ChassisData {
+    unsigned long long timestamp;
+    float brake_pressure;
+    float steering_angle;
+    float suspension_height[4];    // FL, FR, RL, RR
+    float wheel_speed[4];         // FL, FR, RL, RR
+    float brake_pad_wear[4];      // FL, FR, RL, RR
+    boolean abs_active;
+    boolean traction_control_active;
+};
+
+struct BatteryData {
+    unsigned long long timestamp;
+    float voltage;
+    float current;
+    float temperature;
+    float state_of_charge;
+    float power_consumption;
+    long charging_cycles;
+    boolean charging_status;
+};
+
+struct ADASData {
+    unsigned long long timestamp;
+    float forward_collision_distance;
+    float lane_deviation;
+    boolean lane_departure_warning;
+    boolean forward_collision_warning;
+    boolean blind_spot_warning_left;
+    boolean blind_spot_warning_right;
+    sequence<float> obstacle_distances;
+    float adaptive_cruise_speed;
+    float time_to_collision;
+};

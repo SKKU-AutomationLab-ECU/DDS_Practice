@@ -1,0 +1,6 @@
+struct TestData {
+    unsigned long long timestamp;      // 메시지 생성 시간
+    unsigned long sequence_number;     // 메시지 순서 번호
+    string message;                   // 메시지 내용
+    boolean is_critical;              // 중요 메시지 여부
+};

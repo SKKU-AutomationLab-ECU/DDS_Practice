@@ -1,0 +1,8 @@
+struct SensorData {
+    unsigned long long timestamp;
+    unsigned long sequence_number;
+    float temperature;
+    float humidity;
+    float pressure;
+    string message;
+};
