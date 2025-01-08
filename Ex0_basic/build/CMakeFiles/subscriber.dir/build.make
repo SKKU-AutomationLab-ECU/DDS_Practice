@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic
+CMAKE_SOURCE_DIR = /root/workspace/DDS_Practice/Ex0_basic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build
+CMAKE_BINARY_DIR = /root/workspace/DDS_Practice/Ex0_basic/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/subscriber.dir/depend.make
@@ -73,46 +73,46 @@ CMakeFiles/subscriber.dir/codegen:
 .PHONY : CMakeFiles/subscriber.dir/codegen
 
 CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o: CMakeFiles/subscriber.dir/flags.make
-CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o: /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldSubscriber.cpp
+CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o: /root/workspace/DDS_Practice/Ex0_basic/HelloWorldSubscriber.cpp
 CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o: CMakeFiles/subscriber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o -MF CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o.d -o CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o -c /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldSubscriber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o -MF CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o.d -o CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.o -c /root/workspace/DDS_Practice/Ex0_basic/HelloWorldSubscriber.cpp
 
 CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldSubscriber.cpp > CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/DDS_Practice/Ex0_basic/HelloWorldSubscriber.cpp > CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.i
 
 CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldSubscriber.cpp -o CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/DDS_Practice/Ex0_basic/HelloWorldSubscriber.cpp -o CMakeFiles/subscriber.dir/HelloWorldSubscriber.cpp.s
 
 CMakeFiles/subscriber.dir/HelloWorld.cxx.o: CMakeFiles/subscriber.dir/flags.make
-CMakeFiles/subscriber.dir/HelloWorld.cxx.o: /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorld.cxx
+CMakeFiles/subscriber.dir/HelloWorld.cxx.o: /root/workspace/DDS_Practice/Ex0_basic/HelloWorld.cxx
 CMakeFiles/subscriber.dir/HelloWorld.cxx.o: CMakeFiles/subscriber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/subscriber.dir/HelloWorld.cxx.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscriber.dir/HelloWorld.cxx.o -MF CMakeFiles/subscriber.dir/HelloWorld.cxx.o.d -o CMakeFiles/subscriber.dir/HelloWorld.cxx.o -c /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorld.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/subscriber.dir/HelloWorld.cxx.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscriber.dir/HelloWorld.cxx.o -MF CMakeFiles/subscriber.dir/HelloWorld.cxx.o.d -o CMakeFiles/subscriber.dir/HelloWorld.cxx.o -c /root/workspace/DDS_Practice/Ex0_basic/HelloWorld.cxx
 
 CMakeFiles/subscriber.dir/HelloWorld.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/subscriber.dir/HelloWorld.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorld.cxx > CMakeFiles/subscriber.dir/HelloWorld.cxx.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/DDS_Practice/Ex0_basic/HelloWorld.cxx > CMakeFiles/subscriber.dir/HelloWorld.cxx.i
 
 CMakeFiles/subscriber.dir/HelloWorld.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/subscriber.dir/HelloWorld.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorld.cxx -o CMakeFiles/subscriber.dir/HelloWorld.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/DDS_Practice/Ex0_basic/HelloWorld.cxx -o CMakeFiles/subscriber.dir/HelloWorld.cxx.s
 
 CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o: CMakeFiles/subscriber.dir/flags.make
-CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o: /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldPubSubTypes.cxx
+CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o: /root/workspace/DDS_Practice/Ex0_basic/HelloWorldPubSubTypes.cxx
 CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o: CMakeFiles/subscriber.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o -MF CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o.d -o CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o -c /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldPubSubTypes.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o -MF CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o.d -o CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.o -c /root/workspace/DDS_Practice/Ex0_basic/HelloWorldPubSubTypes.cxx
 
 CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldPubSubTypes.cxx > CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/workspace/DDS_Practice/Ex0_basic/HelloWorldPubSubTypes.cxx > CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.i
 
 CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldPubSubTypes.cxx -o CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/workspace/DDS_Practice/Ex0_basic/HelloWorldPubSubTypes.cxx -o CMakeFiles/subscriber.dir/HelloWorldPubSubTypes.cxx.s
 
 # Object files for target subscriber
 subscriber_OBJECTS = \
@@ -135,7 +135,7 @@ subscriber: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 subscriber: /usr/lib/aarch64-linux-gnu/libssl.so
 subscriber: /usr/lib/aarch64-linux-gnu/libcrypto.so
 subscriber: CMakeFiles/subscriber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable subscriber"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/subscriber.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -147,6 +147,6 @@ CMakeFiles/subscriber.dir/clean:
 .PHONY : CMakeFiles/subscriber.dir/clean
 
 CMakeFiles/subscriber.dir/depend:
-	cd /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles/subscriber.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /root/workspace/DDS_Practice/Ex0_basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/workspace/DDS_Practice/Ex0_basic /root/workspace/DDS_Practice/Ex0_basic /root/workspace/DDS_Practice/Ex0_basic/build /root/workspace/DDS_Practice/Ex0_basic/build /root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles/subscriber.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/subscriber.dir/depend
 

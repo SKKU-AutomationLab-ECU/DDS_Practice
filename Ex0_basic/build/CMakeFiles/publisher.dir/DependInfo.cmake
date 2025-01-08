@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorld.cxx" "CMakeFiles/publisher.dir/HelloWorld.cxx.o" "gcc" "CMakeFiles/publisher.dir/HelloWorld.cxx.o.d"
-  "/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldPubSubTypes.cxx" "CMakeFiles/publisher.dir/HelloWorldPubSubTypes.cxx.o" "gcc" "CMakeFiles/publisher.dir/HelloWorldPubSubTypes.cxx.o.d"
-  "/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldPublisher.cpp" "CMakeFiles/publisher.dir/HelloWorldPublisher.cpp.o" "gcc" "CMakeFiles/publisher.dir/HelloWorldPublisher.cpp.o.d"
+  "/root/workspace/DDS_Practice/Ex0_basic/HelloWorld.cxx" "CMakeFiles/publisher.dir/HelloWorld.cxx.o" "gcc" "CMakeFiles/publisher.dir/HelloWorld.cxx.o.d"
+  "/root/workspace/DDS_Practice/Ex0_basic/HelloWorldPubSubTypes.cxx" "CMakeFiles/publisher.dir/HelloWorldPubSubTypes.cxx.o" "gcc" "CMakeFiles/publisher.dir/HelloWorldPubSubTypes.cxx.o.d"
+  "/root/workspace/DDS_Practice/Ex0_basic/HelloWorldPublisher.cpp" "CMakeFiles/publisher.dir/HelloWorldPublisher.cpp.o" "gcc" "CMakeFiles/publisher.dir/HelloWorldPublisher.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

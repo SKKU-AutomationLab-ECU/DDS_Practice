@@ -1,7 +1,7 @@
 CMakeFiles/publisher.dir/HelloWorld.cxx.o: \
- /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorld.cxx \
+ /root/workspace/DDS_Practice/Ex0_basic/HelloWorld.cxx \
  /usr/include/stdc-predef.h \
- /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorld.h \
+ /root/workspace/DDS_Practice/Ex0_basic/HelloWorld.h \
  /usr/include/c++/9/array /usr/include/c++/9/utility \
  /usr/include/aarch64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/9/bits/os_defines.h \
@@ -176,7 +176,7 @@ CMakeFiles/publisher.dir/HelloWorld.cxx.o: \
  /usr/local/include/fastcdr/fastcdr_dll.h \
  /usr/local/include/fastcdr/xcdr/optional.hpp /usr/include/malloc.h \
  /usr/local/include/fastcdr/exceptions/BadParamException.h \
- /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldCdrAux.ipp \
- /root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/HelloWorldCdrAux.hpp \
+ /root/workspace/DDS_Practice/Ex0_basic/HelloWorldCdrAux.ipp \
+ /root/workspace/DDS_Practice/Ex0_basic/HelloWorldCdrAux.hpp \
  /usr/local/include/fastcdr/CdrSizeCalculator.hpp \
  /usr/include/c++/9/limits

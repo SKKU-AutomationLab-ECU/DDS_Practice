@@ -1,4 +1,4 @@
-/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles/publisher.dir
-/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles/subscriber.dir
-/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles/edit_cache.dir
-/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic/build/CMakeFiles/rebuild_cache.dir
+/root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles/publisher.dir
+/root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles/subscriber.dir
+/root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles/edit_cache.dir
+/root/workspace/DDS_Practice/Ex0_basic/build/CMakeFiles/rebuild_cache.dir

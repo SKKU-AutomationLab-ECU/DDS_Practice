@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFOONATHAN_MEMORY=1 -DFOONATHAN_MEMORY_VERSION_MAJOR=0 -DFOONATHAN_MEMORY_VERSION_MINOR=7 -DFOONATHAN_MEMORY_VERSION_PATCH=3
 
-CXX_INCLUDES = -I/root/workspace/skku_dds/csk/SKKU_DDS/Ex0_basic -isystem /usr/local/include/foonathan_memory
+CXX_INCLUDES = -I/root/workspace/DDS_Practice/Ex0_basic -isystem /usr/local/include/foonathan_memory
 
 CXX_FLAGS = -std=gnu++11
 
