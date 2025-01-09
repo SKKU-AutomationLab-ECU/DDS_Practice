@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.12.4)
-
-project(EX7_Domain)
+project(SteeringControl)
 
 # Find requirements
 find_package(FastRTPS REQUIRED)
@@ -16,37 +15,24 @@ include_directories(
     ${FastRTPS_INCLUDE_DIR}
 )
 
-# Generate code from IDL
-file(GLOB IDL_FILES "*.idl")
-foreach(IDL ${IDL_FILES})
-    get_filename_component(IDL_NAME ${IDL} NAME_WE)
-    fastrtps_idl(${IDL_NAME}_GEN "${IDL}")
-endforeach()
-
 # Create executables
-add_executable(domain_publisher 
-    DomainPublisher.cpp
-    Domain.cxx
-    DomainPubSubTypes.cxx
-    DomainCdrAux.cpp
-)
+add_executable(steering_publisher
+    SteeringPublisher.cpp
+    SteeringControl.cxx
+    SteeringControlPubSubTypes.cxx)
 
-add_executable(domain_subscriber
-    DomainSubscriber.cpp
-    Domain.cxx
-    DomainPubSubTypes.cxx
-    DomainCdrAux.cpp
-)
+add_executable(steering_subscriber
+    SteeringSubscriber.cpp
+    SteeringControl.cxx
+    SteeringControlPubSubTypes.cxx)
 
 # Link libraries
-target_link_libraries(domain_publisher
+target_link_libraries(steering_publisher
     fastrtps
     fastcdr
-    Threads::Threads
-)
+    Threads::Threads)
 
-target_link_libraries(domain_subscriber
+target_link_libraries(steering_subscriber
     fastrtps
     fastcdr
-    Threads::Threads
-)
+    Threads::Threads)
