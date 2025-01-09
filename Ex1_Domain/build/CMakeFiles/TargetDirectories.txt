@@ -1,4 +1,0 @@
-/root/workspace/DDS_Practice/Ex7_Domain/build/CMakeFiles/publisher.dir
-/root/workspace/DDS_Practice/Ex7_Domain/build/CMakeFiles/subscriber.dir
-/root/workspace/DDS_Practice/Ex7_Domain/build/CMakeFiles/edit_cache.dir
-/root/workspace/DDS_Practice/Ex7_Domain/build/CMakeFiles/rebuild_cache.dir
